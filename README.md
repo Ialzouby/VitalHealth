@@ -1,43 +1,42 @@
-</head>
+<!DOCTYPE html>
+<html lang="en">
 
 <body>
   <h1>📱 VitalHealth: Your Ultimate Health Tracker</h1>
 
-  <div class="title-graphics">
+  <!-- Three side-by-side images with controlled size -->
+  <div>
+    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/4.png" alt="iPhone Graphic 1">
     <img src="https://github.com/Ialzouby/VitalHealth/blob/main/2.png" alt="iPhone Graphic 1">
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Screen+2" alt="iPhone Graphic 2">
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Screen+3" alt="iPhone Graphic 3">
+    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/3.png" alt="iPhone Graphic 1">
   </div>
 
   <h2>📖 Overview</h2>
   <p>VitalHealth is your ultimate companion for tracking fitness, sleep, gym routines, and wellness activities. Whether you're on a journey to hit 10,000 steps a day, build gym habits, or monitor your screen time, VitalHealth is here to empower you with actionable insights.</p>
 
   <h2>🎯 Features</h2>
-  <div class="features">
-    <ul>
-      <li><strong>Health Tracking</strong>: Daily steps, distance, calories burned, and resting heart rate insights.</li>
-      <li><strong>Gym Routine Management</strong>: Add, edit, and delete exercises. Mark exercises as completed.</li>
-      <li><strong>Custom Wellness Goals</strong>: Track screen time, sitting time, and standing time.</li>
-      <li><strong>Stylish Interface</strong>: Modern design with gradient backgrounds and smooth animations.</li>
-      <li><strong>Secure Authentication</strong>: Sign in with Apple for streamlined login.</li>
-    </ul>
-  </div>
+  <ul>
+    <li><strong>Health Tracking</strong>: Daily steps, distance, calories burned, and resting heart rate insights.</li>
+    <li><strong>Gym Routine Management</strong>: Add, edit, and delete exercises. Mark exercises as completed.</li>
+    <li><strong>Custom Wellness Goals</strong>: Track screen time, sitting time, and standing time.</li>
+    <li><strong>Stylish Interface</strong>: Modern design with gradient backgrounds and smooth animations.</li>
+    <li><strong>Secure Authentication</strong>: Sign in with Apple for streamlined login.</li>
+  </ul>
 
   <h2>🛠️ Tech Stack</h2>
-  <div class="tech-stack">
-    <ul>
-      <li><strong>Frontend</strong>: SwiftUI for modern declarative user interface.</li>
-      <li><strong>HealthKit</strong>: Seamless integration with Apple Health data.</li>
-      <li><strong>Backend</strong>: CoreData for local storage and Firebase for cloud sync (optional).</li>
-      <li><strong>Authentication</strong>: Sign in with Apple for secure login.</li>
-    </ul>
-  </div>
+  <ul>
+    <li><strong>Frontend</strong>: SwiftUI for modern declarative user interface.</li>
+    <li><strong>HealthKit</strong>: Seamless integration with Apple Health data.</li>
+    <li><strong>Backend</strong>: CoreData for local storage and Firebase for cloud sync (optional).</li>
+    <li><strong>Authentication</strong>: Sign in with Apple for secure login.</li>
+  </ul>
 
   <h2>📸 Screenshots</h2>
-  <div class="screenshots">
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Home+Screen" alt="Home Screen">
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Gym+Screen" alt="Gym Screen">
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Goals+Screen" alt="Goals Screen">
+  <!-- Three screenshots with controlled size -->
+  <div>
+    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Home+Screen" alt="Home Screen" width="200">
+    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Gym+Screen" alt="Gym Screen" width="200">
+    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Goals+Screen" alt="Goals Screen" width="200">
   </div>
 
   <h2>🚀 Installation</h2>
@@ -82,9 +81,10 @@
   <h2>📄 License</h2>
   <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
 
-  <div class="footer">
+  <div style="text-align: center; margin-top: 20px;">
     <p>💙 Made with care to empower your health journey 💙</p>
   </div>
 </body>
 
 </html>
+
