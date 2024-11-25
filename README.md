@@ -27,7 +27,7 @@
   <ul>
     <li><strong>Frontend</strong>: SwiftUI for modern declarative user interface.</li>
     <li><strong>HealthKit</strong>: Seamless integration with Apple Health data.</li>
-    <li><strong>Backend</strong>: CoreData for local storage and Firebase for cloud sync (optional).</li>
+    <li><strong>Backend</strong>: CoreData for local storage and Cloukit for cloud sync.</li>
     <li><strong>Authentication</strong>: Sign in with Apple for secure login.</li>
   </ul>
 
