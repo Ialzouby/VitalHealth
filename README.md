@@ -6,9 +6,9 @@
 
   <!-- Three side-by-side images with controlled size -->
   <div>
-    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/4.png" alt="iPhone Graphic 1">
-    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/2.png" alt="iPhone Graphic 1">
-    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/3.png" alt="iPhone Graphic 1">
+    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/Assets/3.png">
+    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/Assets/2.png">
+    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/Assets/1.png">
   </div>
 
   <h2>📖 Overview</h2>
@@ -27,17 +27,9 @@
   <ul>
     <li><strong>Frontend</strong>: SwiftUI for modern declarative user interface.</li>
     <li><strong>HealthKit</strong>: Seamless integration with Apple Health data.</li>
-    <li><strong>Backend</strong>: CoreData for local storage and Firebase for cloud sync (optional).</li>
+    <li><strong>Backend</strong>: CoreData for local storage and Cloukit for cloud sync.</li>
     <li><strong>Authentication</strong>: Sign in with Apple for secure login.</li>
   </ul>
-
-  <h2>📸 Screenshots</h2>
-  <!-- Three screenshots with controlled size -->
-  <div>
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Home+Screen" alt="Home Screen" width="200">
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Gym+Screen" alt="Gym Screen" width="200">
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Goals+Screen" alt="Goals Screen" width="200">
-  </div>
 
   <h2>🚀 Installation</h2>
   <ol>
