@@ -6,9 +6,9 @@
 
   <!-- Three side-by-side images with controlled size -->
   <div>
-    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/4.png" alt="iPhone Graphic 1">
-    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/2.png" alt="iPhone Graphic 1">
-    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/3.png" alt="iPhone Graphic 1">
+    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/Assets/3.png">
+    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/Assets/2.png">
+    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/Assets/1.png">
   </div>
 
   <h2>📖 Overview</h2>
