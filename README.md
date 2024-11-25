@@ -31,14 +31,6 @@
     <li><strong>Authentication</strong>: Sign in with Apple for secure login.</li>
   </ul>
 
-  <h2>📸 Screenshots</h2>
-  <!-- Three screenshots with controlled size -->
-  <div>
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Home+Screen" alt="Home Screen" width="200">
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Gym+Screen" alt="Gym Screen" width="200">
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Goals+Screen" alt="Goals Screen" width="200">
-  </div>
-
   <h2>🚀 Installation</h2>
   <ol>
     <li>Clone the repository:
