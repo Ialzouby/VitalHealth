@@ -6,14 +6,18 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct VitalHealthApp: App {
     let persistenceController = PersistenceController.shared
+    init() {
+        FirebaseApp.configure()
+    }
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignInView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

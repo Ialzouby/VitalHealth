@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1703F1892CF3EA2D004716FC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703F1882CF3EA2D004716FC /* SignInView.swift */; };
+		1703F18B2CF3EB26004716FC /* ProfileImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703F18A2CF3EB26004716FC /* ProfileImageManager.swift */; };
+		1703F18D2CF3EB78004716FC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703F18C2CF3EB78004716FC /* ImagePicker.swift */; };
+		1703F18F2CF3FAF5004716FC /* GymView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703F18E2CF3FAF5004716FC /* GymView.swift */; };
+		1703F1912CF3FBFF004716FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703F1902CF3FBFF004716FC /* MainView.swift */; };
+		1703F1932CF3FC12004716FC /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703F1922CF3FC12004716FC /* GoalsView.swift */; };
+		1711E2A42CF41C5D00A3EF86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1711E2A32CF41C5D00A3EF86 /* LaunchScreen.storyboard */; };
+		1711E2A62CF4A30100A3EF86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1711E2A52CF4A30100A3EF86 /* GoogleService-Info.plist */; };
+		1711E2A92CF4A32600A3EF86 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1711E2A82CF4A32600A3EF86 /* FirebaseAuth */; };
+		1711E2AC2CF4A39100A3EF86 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1711E2AB2CF4A39100A3EF86 /* FirebaseAnalytics */; };
 		1735E2952CF3DF18009324BF /* VitalHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2942CF3DF18009324BF /* VitalHealthApp.swift */; };
 		1735E2972CF3DF18009324BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2962CF3DF18009324BF /* ContentView.swift */; };
 		1735E2992CF3DF19009324BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1735E2982CF3DF19009324BF /* Assets.xcassets */; };
 		1735E29C2CF3DF19009324BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1735E29B2CF3DF19009324BF /* Preview Assets.xcassets */; };
 		1735E29E2CF3DF19009324BF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E29D2CF3DF19009324BF /* Persistence.swift */; };
 		1735E2A12CF3DF19009324BF /* VitalHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1735E29F2CF3DF19009324BF /* VitalHealth.xcdatamodeld */; };
+		1735E2AD2CF3E000009324BF /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2AC2CF3E000009324BF /* HealthKitManager.swift */; };
+		1735E2AF2CF3E00F009324BF /* ChartDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2AE2CF3E00F009324BF /* ChartDataHelper.swift */; };
+		1735E2B12CF3E029009324BF /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2B02CF3E029009324BF /* ActivityViewModel.swift */; };
+		1735E2B32CF3E038009324BF /* GoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2B22CF3E038009324BF /* GoalViewModel.swift */; };
+		1735E2B52CF3E043009324BF /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2B42CF3E043009324BF /* Activity.swift */; };
+		1735E2B72CF3E04C009324BF /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2B62CF3E04C009324BF /* Goal.swift */; };
+		1735E2B92CF3E089009324BF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2B82CF3E089009324BF /* HomeView.swift */; };
+		1735E2BB2CF3E0A1009324BF /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2BA2CF3E0A1009324BF /* ActivityDetailView.swift */; };
+		1735E2BD2CF3E0B2009324BF /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2BC2CF3E0B2009324BF /* AddActivityView.swift */; };
+		1735E2BF2CF3E5BF009324BF /* SummaryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735E2BE2CF3E5BF009324BF /* SummaryCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1703F1882CF3EA2D004716FC /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		1703F18A2CF3EB26004716FC /* ProfileImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageManager.swift; sourceTree = "<group>"; };
+		1703F18C2CF3EB78004716FC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1703F18E2CF3FAF5004716FC /* GymView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymView.swift; sourceTree = "<group>"; };
+		1703F1902CF3FBFF004716FC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1703F1922CF3FC12004716FC /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		1711E2A32CF41C5D00A3EF86 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1711E2A52CF4A30100A3EF86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1735E2912CF3DF18009324BF /* VitalHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitalHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1735E2942CF3DF18009324BF /* VitalHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalHealthApp.swift; sourceTree = "<group>"; };
 		1735E2962CF3DF18009324BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +51,18 @@
 		1735E29B2CF3DF19009324BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1735E29D2CF3DF19009324BF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1735E2A02CF3DF19009324BF /* VitalHealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VitalHealth.xcdatamodel; sourceTree = "<group>"; };
+		1735E2A72CF3DF2A009324BF /* VitalHealth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VitalHealth.entitlements; sourceTree = "<group>"; };
+		1735E2AC2CF3E000009324BF /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		1735E2AE2CF3E00F009324BF /* ChartDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataHelper.swift; sourceTree = "<group>"; };
+		1735E2B02CF3E029009324BF /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		1735E2B22CF3E038009324BF /* GoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewModel.swift; sourceTree = "<group>"; };
+		1735E2B42CF3E043009324BF /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		1735E2B62CF3E04C009324BF /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		1735E2B82CF3E089009324BF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1735E2BA2CF3E0A1009324BF /* ActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
+		1735E2BC2CF3E0B2009324BF /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		1735E2BE2CF3E5BF009324BF /* SummaryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCardView.swift; sourceTree = "<group>"; };
+		176E5FF82CF4AD5900335BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +70,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1711E2AC2CF4A39100A3EF86 /* FirebaseAnalytics in Frameworks */,
+				1711E2A92CF4A32600A3EF86 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1711E2AA2CF4A39100A3EF86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1735E2882CF3DF18009324BF = {
 			isa = PBXGroup;
 			children = (
 				1735E2932CF3DF18009324BF /* VitalHealth */,
 				1735E2922CF3DF18009324BF /* Products */,
+				1711E2AA2CF4A39100A3EF86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,12 +105,21 @@
 		1735E2932CF3DF18009324BF /* VitalHealth */ = {
 			isa = PBXGroup;
 			children = (
+				176E5FF82CF4AD5900335BC9 /* Info.plist */,
+				1711E2A52CF4A30100A3EF86 /* GoogleService-Info.plist */,
+				1735E2AB2CF3DFEB009324BF /* Utils */,
+				1735E2AA2CF3DFE3009324BF /* ViewModels */,
+				1735E2A92CF3DFDB009324BF /* Models */,
+				1735E2A82CF3DFCC009324BF /* Views */,
+				1735E2A72CF3DF2A009324BF /* VitalHealth.entitlements */,
 				1735E2942CF3DF18009324BF /* VitalHealthApp.swift */,
+				1703F1882CF3EA2D004716FC /* SignInView.swift */,
 				1735E2962CF3DF18009324BF /* ContentView.swift */,
 				1735E2982CF3DF19009324BF /* Assets.xcassets */,
 				1735E29D2CF3DF19009324BF /* Persistence.swift */,
 				1735E29F2CF3DF19009324BF /* VitalHealth.xcdatamodeld */,
 				1735E29A2CF3DF19009324BF /* Preview Content */,
+				1711E2A32CF41C5D00A3EF86 /* LaunchScreen.storyboard */,
 			);
 			path = VitalHealth;
 			sourceTree = "<group>";
@@ -71,6 +130,49 @@
 				1735E29B2CF3DF19009324BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1735E2A82CF3DFCC009324BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1735E2B82CF3E089009324BF /* HomeView.swift */,
+				1735E2BA2CF3E0A1009324BF /* ActivityDetailView.swift */,
+				1735E2BC2CF3E0B2009324BF /* AddActivityView.swift */,
+				1735E2BE2CF3E5BF009324BF /* SummaryCardView.swift */,
+				1703F18C2CF3EB78004716FC /* ImagePicker.swift */,
+				1703F18E2CF3FAF5004716FC /* GymView.swift */,
+				1703F1902CF3FBFF004716FC /* MainView.swift */,
+				1703F1922CF3FC12004716FC /* GoalsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1735E2A92CF3DFDB009324BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1735E2B42CF3E043009324BF /* Activity.swift */,
+				1735E2B62CF3E04C009324BF /* Goal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1735E2AA2CF3DFE3009324BF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1735E2B02CF3E029009324BF /* ActivityViewModel.swift */,
+				1735E2B22CF3E038009324BF /* GoalViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1735E2AB2CF3DFEB009324BF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1735E2AC2CF3E000009324BF /* HealthKitManager.swift */,
+				1735E2AE2CF3E00F009324BF /* ChartDataHelper.swift */,
+				1703F18A2CF3EB26004716FC /* ProfileImageManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +191,10 @@
 			dependencies = (
 			);
 			name = VitalHealth;
+			packageProductDependencies = (
+				1711E2A82CF4A32600A3EF86 /* FirebaseAuth */,
+				1711E2AB2CF4A39100A3EF86 /* FirebaseAnalytics */,
+			);
 			productName = VitalHealth;
 			productReference = 1735E2912CF3DF18009324BF /* VitalHealth.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 1735E2882CF3DF18009324BF;
+			packageReferences = (
+				1711E2A72CF4A32600A3EF86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1735E2922CF3DF18009324BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,6 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1711E2A42CF41C5D00A3EF86 /* LaunchScreen.storyboard in Resources */,
+				1711E2A62CF4A30100A3EF86 /* GoogleService-Info.plist in Resources */,
 				1735E29C2CF3DF19009324BF /* Preview Assets.xcassets in Resources */,
 				1735E2992CF3DF19009324BF /* Assets.xcassets in Resources */,
 			);
@@ -143,9 +254,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1735E2AF2CF3E00F009324BF /* ChartDataHelper.swift in Sources */,
 				1735E29E2CF3DF19009324BF /* Persistence.swift in Sources */,
+				1735E2BB2CF3E0A1009324BF /* ActivityDetailView.swift in Sources */,
+				1703F18D2CF3EB78004716FC /* ImagePicker.swift in Sources */,
+				1703F18B2CF3EB26004716FC /* ProfileImageManager.swift in Sources */,
+				1703F1912CF3FBFF004716FC /* MainView.swift in Sources */,
+				1735E2BF2CF3E5BF009324BF /* SummaryCardView.swift in Sources */,
+				1735E2B12CF3E029009324BF /* ActivityViewModel.swift in Sources */,
 				1735E2972CF3DF18009324BF /* ContentView.swift in Sources */,
 				1735E2A12CF3DF19009324BF /* VitalHealth.xcdatamodeld in Sources */,
+				1735E2B92CF3E089009324BF /* HomeView.swift in Sources */,
+				1703F1932CF3FC12004716FC /* GoalsView.swift in Sources */,
+				1735E2B32CF3E038009324BF /* GoalViewModel.swift in Sources */,
+				1703F1892CF3EA2D004716FC /* SignInView.swift in Sources */,
+				1735E2B52CF3E043009324BF /* Activity.swift in Sources */,
+				1735E2AD2CF3E000009324BF /* HealthKitManager.swift in Sources */,
+				1735E2BD2CF3E0B2009324BF /* AddActivityView.swift in Sources */,
+				1735E2B72CF3E04C009324BF /* Goal.swift in Sources */,
+				1703F18F2CF3FAF5004716FC /* GymView.swift in Sources */,
 				1735E2952CF3DF18009324BF /* VitalHealthApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,15 +404,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = VitalHealth/VitalHealth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VitalHealth/Preview Content\"";
 				DEVELOPMENT_TEAM = H546T77SDQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VitalHealth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vital Health";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your health data to display your activity progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires permission to update your health data for activity tracking.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,7 +427,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alzoubyissam.VitalHealth;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alzoubyissam.Vital-Health";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -306,15 +440,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = VitalHealth/VitalHealth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VitalHealth/Preview Content\"";
 				DEVELOPMENT_TEAM = H546T77SDQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VitalHealth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vital Health";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your health data to display your activity progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires permission to update your health data for activity tracking.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alzoubyissam.VitalHealth;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alzoubyissam.Vital-Health";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,6 +493,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1711E2A72CF4A32600A3EF86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1711E2A82CF4A32600A3EF86 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1711E2A72CF4A32600A3EF86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1711E2AB2CF4A39100A3EF86 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1711E2A72CF4A32600A3EF86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1735E29F2CF3DF19009324BF /* VitalHealth.xcdatamodeld */ = {
