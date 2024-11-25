@@ -1,6 +1,3 @@
-
-  <title>VitalHealth README</title>
-
 </head>
 
 <body>
