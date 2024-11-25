@@ -4,7 +4,7 @@
   <h1>📱 VitalHealth: Your Ultimate Health Tracker</h1>
 
   <div class="title-graphics">
-    <img src="https://dummyimage.com/200x400/ddd/aaa&text=Screen+1" alt="iPhone Graphic 1">
+    <img src="https://github.com/Ialzouby/VitalHealth/blob/main/2.png" alt="iPhone Graphic 1">
     <img src="https://dummyimage.com/200x400/ddd/aaa&text=Screen+2" alt="iPhone Graphic 2">
     <img src="https://dummyimage.com/200x400/ddd/aaa&text=Screen+3" alt="iPhone Graphic 3">
   </div>
