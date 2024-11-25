@@ -1,60 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VitalHealth README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      max-width: 800px;
-      margin: 0 auto;
-    }
 
-    h1 {
-      text-align: center;
-    }
-
-    .title-graphics {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-bottom: 20px;
-    }
-
-    .title-graphics img {
-      width: 200px;
-      border-radius: 15px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .tech-stack ul {
-      padding-left: 20px;
-    }
-
-    .features ul {
-      padding-left: 20px;
-    }
-
-    .screenshots {
-      text-align: center;
-    }
-
-    .screenshots img {
-      width: 200px;
-      margin: 10px;
-      border-radius: 15px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .footer {
-      text-align: center;
-      margin-top: 30px;
-    }
-  </style>
 </head>
 
 <body>
